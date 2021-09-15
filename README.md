@@ -30,7 +30,7 @@ pip install numpy
 
 Publish the segmented object on topic:
 
-### '/cloud_segmented'
+**'/cloud_segmented'**
 
 The object should be aligned to the camera, which means that, having the knowledge of the object orientation is recommended. 
 
@@ -48,15 +48,15 @@ https://pointclouds.org/documentation/classpcl_1_1_iterative_closest_point.html
 
 Run the code using:
 
-### roslaunch grasp_python grasp.launch
+**roslaunch grasp_python grasp.launch**
 
 The region to grasp will be publish on  the topic:
 
-### '/grasp_region'
+**'/grasp_region'**
 
 And the grasping type will be pushed on:
 
-### '/grasp_type'
+**'/grasp_type'**
 
 Where type will be:
 
