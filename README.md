@@ -4,7 +4,7 @@ Simplified python grasping code from the paper *insert paper here*
 
 ## Requeriments
 
-### ROS(Tested on ROS Melodic)
+### ROS(Tested on ROS Melodic and Ubuntu 18)
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
@@ -14,11 +14,11 @@ https://github.com/strawlab/python-pcl
 
 ### Numpy
 
-pip install numpy
+**pip install numpy**
 
 ### Scipy
 
-pip install numpy
+**pip install scipy**
 
 ## Usage
 
