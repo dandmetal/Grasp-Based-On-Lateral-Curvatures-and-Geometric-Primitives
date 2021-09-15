@@ -64,3 +64,7 @@ Where type will be:
 * -1 : When the object is a geoemtric primitive
 * 0 or Greater: When a grasping region was found, where the type is the region ID.
 
+## Citing
+
+**Soon®**
+
