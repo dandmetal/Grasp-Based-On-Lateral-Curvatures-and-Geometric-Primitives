@@ -1,0 +1,7 @@
+<launch>
+	<node name="grasp_python" pkg="grasp_python" type="main.py" output="screen"/>
+	<param name="gripper_height" type="double" value="0.03" />
+	<param name="gripper_width" type="double" value="0.12" />
+	<param name="n" type="int" value="4" />
+	<param name="frame" type="str" value="camera_webots_link" />
+</launch>
