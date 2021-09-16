@@ -57,10 +57,10 @@ roslaunch grasp_python grasp.launch
 ```
 The lauch file will have the following parameters:
 
-*gripper_height: The height of the gripper finger.
-*gripper_width: The distance between the griper fingers when fully open.
-*n: Influence the number of points used to calculate the curvature.
-*frame: The ROS camera frame, used for debugging/visualization on RVIZ.
+* gripper_height: The height of the gripper finger.
+* gripper_width: The distance between the griper fingers when fully open.
+* n: Influence the number of points used to calculate the curvature.
+* frame: The ROS camera frame, used for debugging/visualization on RVIZ.
 
 
 The region to grasp will be publish on  the topic:
