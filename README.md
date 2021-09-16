@@ -14,12 +14,14 @@ https://github.com/strawlab/python-pcl
 
 ### Numpy
 
-**pip install numpy**
+```Shell
+pip install numpy
+```
 
 ### Scipy
-
-**pip install scipy**
-
+```Shell
+pip install scipy
+```
 ## Usage
 
 ![plot](./Figures/Bleach.png)
@@ -30,7 +32,9 @@ https://github.com/strawlab/python-pcl
 
 Publish the segmented object on topic:
 
-**'/cloud_segmented'**
+```Shell
+'/cloud_segmented'
+```
 
 The object should be aligned to the camera, which means that, having the knowledge of the object orientation is recommended. 
 
@@ -48,15 +52,28 @@ https://pointclouds.org/documentation/classpcl_1_1_iterative_closest_point.html
 
 Run the code using:
 
-**roslaunch grasp_python grasp.launch**
+```Shell
+roslaunch grasp_python grasp.launch
+```
+The lauch file will have the following parameters:
+
+*gripper_height: The height of the gripper finger.
+*gripper_width: The distance between the griper fingers when fully open.
+*n: Influence the number of points used to calculate the curvature.
+*frame: The ROS camera frame, used for debugging/visualization on RVIZ.
+
 
 The region to grasp will be publish on  the topic:
 
-**'/grasp_region'**
+```Shell
+'/grasp_region'
+```
 
 And the grasping type will be pushed on:
 
-**'/grasp_type'**
+```Shell
+'/grasp_type'
+```
 
 Where type will be:
 
