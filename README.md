@@ -83,5 +83,5 @@ Where type will be:
 
 ## Citing
 
-**Soon®**
+@INPROCEEDINGS{9605382,  author={de Oliveira, Daniel M. and Viturino, Caio C. B. and Conceição, André G. S.},  booktitle={2021 Latin American Robotics Symposium (LARS), 2021 Brazilian Symposium on Robotics (SBR), and 2021 Workshop on Robotics in Education (WRE)},   title={6D Grasping Based On Lateral Curvatures and Geometric Primitives},   year={2021},  volume={},  number={},  pages={138-143},  doi={10.1109/LARS/SBR/WRE54079.2021.9605382}}
 
