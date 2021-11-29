@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import rospy
 import ros_numpy
 import numpy as np
@@ -36,8 +36,8 @@ def main():
     while not rospy.is_shutdown():
         rate = rospy.Rate(10)
         cloud_global = "cloud_state" in globals()
-        #pose_global = "pose_state" in globals()
-        if cloud_global: #and pose_global:
+        pose_global = "pose_state" in globals()
+        if cloud_global and pose_global:
             pc = ros_numpy.numpify(cloud_state)
             points=np.zeros((pc.shape[0],3))
             points[:,0]=pc['x']

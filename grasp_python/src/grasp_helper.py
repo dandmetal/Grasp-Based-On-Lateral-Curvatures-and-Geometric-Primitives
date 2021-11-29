@@ -16,7 +16,7 @@ def get_geometry(delta):
         geometry: int
     """
     if (delta >= 0 and delta <= 0.1 ):
-		return 0
+        return 0
     elif (delta > 0.1 and delta <= 0.4):
         return 1
     else:
