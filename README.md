@@ -1,10 +1,10 @@
 # Grasp-Based-On-Lateral-Curvatures-and-Geometric-Primitives
 
-Simplified python grasping code from the paper *insert paper here*
+Simplified python grasping code from the paper 6D Grasping Based On Lateral Curvatures and Geometric Primitives
 
 ## Requeriments
 
-### ROS(Tested on ROS Melodic and Ubuntu 18)
+### ROS(Tested on ROS Noetic and Ubuntu 20)
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
