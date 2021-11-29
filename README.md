@@ -1,6 +1,6 @@
 # Grasp-Based-On-Lateral-Curvatures-and-Geometric-Primitives
 
-Simplified python grasping code from the paper *insert paper here*
+Simplified python grasping code from the paper 6D Grasping Based On Lateral Curvatures and Geometric Primitives.
 
 ## Requeriments
 
