@@ -6,7 +6,7 @@ Simplified python grasping code from the paper 6D Grasping Based On Lateral Curv
 
 ### ROS(Tested on ROS Noetic and Ubuntu 20)
 
-http://wiki.ros.org/melodic/Installation/Ubuntu
+http://wiki.ros.org/noetic/Installation
 
 ### Python PCL
 
