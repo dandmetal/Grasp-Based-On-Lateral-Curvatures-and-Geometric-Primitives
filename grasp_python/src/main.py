@@ -56,8 +56,11 @@ def main():
             header.stamp = rospy.Time.now()
             header.frame_id = frame
             cloud_out = pc2.create_cloud_xyz32(header, cloud_array)
-            pub_grasp.publish(cloud_out)
-            pub_geometry.publish(indice)
+            print("Publishing Data...")
+            while 1:
+                pub_grasp.publish(cloud_out)
+                pub_geometry.publish(indice)
+            exit()
 
         rate.sleep()
 

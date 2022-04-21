@@ -237,7 +237,7 @@ def get_clusters(cloud_filtered):
 
 
     ec = cloud_filtered.make_EuclideanClusterExtraction()
-    ec.set_ClusterTolerance (0.02)
+    ec.set_ClusterTolerance (0.03)
     ec.set_MinClusterSize (5)
     ec.set_MaxClusterSize (100)
     ec.set_SearchMethod (tree)
@@ -247,6 +247,7 @@ def get_clusters(cloud_filtered):
     for j, indices in enumerate(cluster_indices):
         #print('indices = ' + str(len(indices)))
         points = np.zeros((len(indices), 3), dtype=np.float32)
+        cloud_cluster = pcl.PointCloud()
 
         for i, indice in enumerate(indices):
             points[i][0] = cloud_filtered[indice][0]

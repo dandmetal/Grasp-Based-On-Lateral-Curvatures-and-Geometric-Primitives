@@ -46,9 +46,14 @@ def grasp(cloud, g_h = 0.04, g_w = 0.14, n = 6):
 
     for i in range(size_parts_temp):
         cluster = grasp_filters.get_clusters(parts_temp[i])
-        for j in range(len(cluster)):
-            parts.append(cluster[j])
+        if len(cluster) == 0:
+            parts.append(parts_temp[i])
+        else:
+            for j in range(len(cluster)):
+                parts.append(cluster[j])
+        #parts.append(parts_temp[i])
 
+    #parts.append(parts_temp)
     #parts = parts_temp
     size_parts = len(parts)
     print("Number of clusters: ", size_parts)
